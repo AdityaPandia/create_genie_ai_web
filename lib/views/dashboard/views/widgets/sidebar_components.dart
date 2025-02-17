@@ -1,4 +1,3 @@
-
 import 'package:create_ai_genie_web/constants/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -15,11 +14,9 @@ class ProfileCard extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(5.r),
-          border: Border.all(
-              width: 1.w, color: CustomColors.lightTextColor)),
+          border: Border.all(width: 1.w, color: CustomColors.lightTextColor)),
       child: Padding(
-        padding: EdgeInsets.symmetric(
-            horizontal: 14.w, vertical: 10.h),
+        padding: EdgeInsets.symmetric(horizontal: 14.w, vertical: 10.h),
         child: Row(
           children: [
             Icon(
@@ -37,8 +34,7 @@ class ProfileCard extends StatelessWidget {
                 Text(
                   "Taranpreet - IN",
                   style: GoogleFonts.inter(
-                      color: CustomColors.darkTextColor,
-                      fontSize: 14.sp),
+                      color: CustomColors.darkTextColor, fontSize: 14.sp),
                 ),
                 Text(
                   "Store View",
@@ -62,13 +58,6 @@ class ProfileCard extends StatelessWidget {
     );
   }
 }
-
-
-
-
-
-
-
 
 class SidebarButton extends StatelessWidget {
   const SidebarButton({
@@ -139,4 +128,3 @@ class SidebarButton extends StatelessWidget {
     );
   }
 }
-
