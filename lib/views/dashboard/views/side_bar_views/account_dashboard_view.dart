@@ -31,67 +31,67 @@ class AccountDashboardView extends StatelessWidget {
             ),
           ],
         ),
-        SizedBox(
+        const SizedBox(
           height: 23,
         ),
-        // Figma Flutter Generator Choose_accountWidget - GROUP
-        AmazonAccountButton(),
-        SizedBox(
+     
+        const AmazonAccountButton(),
+        const SizedBox(
           height: 19,
         ),
         Text(
           "Single Account Overview",
           style: GoogleFonts.inter(fontSize: 15, fontWeight: FontWeight.w400),
         ),
-        SizedBox(
+        const SizedBox(
           height: 15,
         ),
 
-        // Figma Flutter Generator CtrWidget - GROUP
+   
         Row(
           children: [
-            CampaignSummaryCard(
+            const CampaignSummaryCard(
               title: 'Total Spend',
               subTitle: '14,000 \$',
             ),
             SizedBox(
               width: 28.w,
             ),
-            CTRCard(
+            const CTRCard(
               title: 'CTR',
               value: '15.2 %',
             ),
             SizedBox(
               width: 28.w,
             ),
-            CTRCard(
+            const CTRCard(
               title: 'ROI',
               value: '15.2 %',
             ),
             SizedBox(
               width: 28.w,
             ),
-            CTRCard(
+            const CTRCard(
               title: 'ACoS',
               value: '15.2 %',
             ),
             SizedBox(
               width: 28.w,
             ),
-            CTRCard(
+            const CTRCard(
               title: 'Total Spend',
               value: '15.2 %',
             )
           ],
         ),
-        SizedBox(
+        const SizedBox(
           height: 18,
         ),
         Text(
           "Metric Comparision",
           style: GoogleFonts.inter(fontSize: 15, fontWeight: FontWeight.w400),
         ),
-        SizedBox(
+        const SizedBox(
           height: 13,
         ),
         Image.asset(
@@ -125,7 +125,7 @@ class CTRCard extends StatelessWidget {
               child: Container(
                   width: 172,
                   height: 101,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(15),
                       topRight: Radius.circular(15),
@@ -158,7 +158,7 @@ class CTRCard extends StatelessWidget {
                         child: Container(
                             width: 54,
                             height: 18,
-                            child: Stack(children: <Widget>[
+                            child: const Stack(children: <Widget>[
                               //     Positioned(
                               //   top: 0,
                               //   left: 0,
@@ -185,7 +185,7 @@ class CTRCard extends StatelessWidget {
                         child: Text(
                           value,
                           textAlign: TextAlign.left,
-                          style: TextStyle(
+                          style: const TextStyle(
                               color: Color.fromRGBO(41, 39, 39, 1),
                               fontFamily: 'Inter',
                               fontSize: 20,
@@ -201,7 +201,7 @@ class CTRCard extends StatelessWidget {
               child: Text(
                 title,
                 textAlign: TextAlign.left,
-                style: TextStyle(
+                style: const TextStyle(
                     color: Color.fromRGBO(41, 39, 39, 1),
                     fontFamily: 'Inter',
                     fontSize: 15,
@@ -246,16 +246,16 @@ class AmazonAccountButton extends StatelessWidget {
                                       width: 428,
                                       height: 53,
                                       decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.only(
+                                        borderRadius: const BorderRadius.only(
                                           topLeft: Radius.circular(5),
                                           topRight: Radius.circular(5),
                                           bottomLeft: Radius.circular(5),
                                           bottomRight: Radius.circular(5),
                                         ),
-                                        color: Color.fromRGBO(255, 255, 255, 1),
+                                        color: const Color.fromRGBO(255, 255, 255, 1),
                                         border: Border.all(
                                           color:
-                                              Color.fromRGBO(174, 174, 174, 1),
+                                              const Color.fromRGBO(174, 174, 174, 1),
                                           width: 1,
                                         ),
                                       ))),
@@ -266,7 +266,7 @@ class AmazonAccountButton extends StatelessWidget {
                                     'assets/images/down_arrow.svg',
                                     semanticsLabel: 'down_arrow'),
                               ),
-                              Positioned(
+                              const Positioned(
                                   top: 17,
                                   left: 57,
                                   child: Text(
@@ -287,7 +287,7 @@ class AmazonAccountButton extends StatelessWidget {
                                   child: Container(
                                       width: 20,
                                       height: 20,
-                                      decoration: BoxDecoration(
+                                      decoration: const BoxDecoration(
                                         color: Color.fromRGBO(255, 255, 255, 1),
                                       ),
                                       child: Stack(children: <Widget>[
@@ -338,14 +338,14 @@ class AmazonAccountButton extends StatelessWidget {
                                   child: Container(
                                       width: 13.49731731414795,
                                       height: 13.49731731414795,
-                                      decoration: BoxDecoration(
+                                      decoration: const BoxDecoration(
                                         color: Color.fromRGBO(234, 122, 61, 1),
                                         borderRadius: BorderRadius.all(
                                             Radius.elliptical(13.49731731414795,
                                                 13.49731731414795)),
                                       ))),
                             ]))),
-                    Positioned(
+                    const Positioned(
                         top: 0,
                         left: 0,
                         child: Text(
@@ -380,7 +380,7 @@ class AmazonAccountButton extends StatelessWidget {
                                             child: Container(
                                                 width: 38.69231033325195,
                                                 height: 17.05084800720215,
-                                                decoration: BoxDecoration(
+                                                decoration: const BoxDecoration(
                                                   borderRadius:
                                                       BorderRadius.only(
                                                     topLeft:
@@ -401,7 +401,7 @@ class AmazonAccountButton extends StatelessWidget {
                                             child: Container(
                                                 width: 13.49731731414795,
                                                 height: 13.49731731414795,
-                                                decoration: BoxDecoration(
+                                                decoration: const BoxDecoration(
                                                   color: Color.fromRGBO(
                                                       154, 25, 207, 1),
                                                   borderRadius: BorderRadius
@@ -410,7 +410,7 @@ class AmazonAccountButton extends StatelessWidget {
                                                           13.49731731414795)),
                                                 ))),
                                       ]))),
-                              Positioned(
+                              const Positioned(
                                   top: 0,
                                   left: 0,
                                   child: Text(

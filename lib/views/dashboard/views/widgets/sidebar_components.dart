@@ -113,7 +113,7 @@ class SidebarButton extends StatelessWidget {
           ),
         ),
         AnimatedOpacity(
-          duration: Duration(milliseconds: 300),
+          duration: const Duration(milliseconds: 300),
           opacity: isHovered ? 1.0 : 0.0,
           child: Container(
             width: 236.w,

@@ -85,7 +85,7 @@ class AiSuggestionCard extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         border: Border.all(
-          color: Color(0xFF9A19CF),
+          color: const Color(0xFF9A19CF),
         ),
         borderRadius: BorderRadius.circular(5.r),
         color: Colors.white,
@@ -104,18 +104,18 @@ class AiSuggestionCard extends StatelessWidget {
               children: [
                 Container(
                   decoration: BoxDecoration(
-                      color: Color(0xFFD3FFD2),
+                      color: const Color(0xFFD3FFD2),
                       borderRadius: BorderRadius.circular(19.r)),
                   child: Padding(
                     padding:
                         EdgeInsets.symmetric(horizontal: 12.w, vertical: 5.h),
-                    child: Text("High Impact  70.25%"),
+                    child: const Text("High Impact  70.25%"),
                   ),
                 ),
                 SizedBox(
                   width: 3.w,
                 ),
-                Icon(
+                const Icon(
                   Icons.check,
                   color: Color(0xFF9A19CF),
                 ),
@@ -146,20 +146,20 @@ class BudgetChip extends StatelessWidget {
           width: 55.w,
           height: 38.h,
           decoration: BoxDecoration(
-              color: Color(0xFFEEEEEE),
+              color: const Color(0xFFEEEEEE),
               borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(
                     5.r,
                   ),
                   bottomLeft: Radius.circular(5.r)),
-              border: Border.all(color: Color(0xFF717D96), width: 1.sp)),
+              border: Border.all(color: const Color(0xFF717D96), width: 1.sp)),
           child: Center(
             child: Text(
               keyy,
               style: GoogleFonts.inter(
                   fontWeight: FontWeight.w400,
                   fontSize: 12.sp,
-                  color: Color(0xFF292727)),
+                  color: const Color(0xFF292727)),
             ),
           ),
         ),
@@ -167,13 +167,13 @@ class BudgetChip extends StatelessWidget {
           width: width != null ? width!.w : 100.w, //100.w,
           height: 38.h,
           decoration: BoxDecoration(
-              color: Color(0xFFEEEEEE),
+              color: const Color(0xFFEEEEEE),
               borderRadius: BorderRadius.only(
                   topRight: Radius.circular(
                     5.r,
                   ),
                   bottomRight: Radius.circular(5.r)),
-              border: Border.all(color: Color(0xFF717D96), width: 1.sp)),
+              border: Border.all(color: const Color(0xFF717D96), width: 1.sp)),
           child: Align(
             alignment: Alignment.centerLeft,
             child: Padding(
@@ -183,7 +183,7 @@ class BudgetChip extends StatelessWidget {
                 style: GoogleFonts.inter(
                     fontWeight: FontWeight.w400,
                     fontSize: 12.sp,
-                    color: Color(0xFF292727)),
+                    color: const Color(0xFF292727)),
               ),
             ),
           ),

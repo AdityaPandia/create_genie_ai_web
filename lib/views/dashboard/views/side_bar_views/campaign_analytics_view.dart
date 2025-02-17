@@ -77,7 +77,7 @@ class CampaignAnalyticsView extends StatelessWidget {
                 width: 60.w,
                 height: 23.h,
                 decoration: BoxDecoration(
-                    color: Color(0xFFDEDEDE),
+                    color: const Color(0xFFDEDEDE),
                     borderRadius: BorderRadius.circular(3.r)),
               ),
               SizedBox(
@@ -87,7 +87,7 @@ class CampaignAnalyticsView extends StatelessWidget {
                 width: 49.w,
                 height: 23.h,
                 decoration: BoxDecoration(
-                    color: Color(0xFFDEDEDE),
+                    color: const Color(0xFFDEDEDE),
                     borderRadius: BorderRadius.circular(3.r)),
               ),
               SizedBox(
@@ -97,7 +97,7 @@ class CampaignAnalyticsView extends StatelessWidget {
                 width: 49.w,
                 height: 23.h,
                 decoration: BoxDecoration(
-                    color: Color(0xFFDEDEDE),
+                    color: const Color(0xFFDEDEDE),
                     borderRadius: BorderRadius.circular(3.r)),
               ),
               SizedBox(
@@ -125,7 +125,7 @@ class CampaignAnalyticsView extends StatelessWidget {
                 width: 60.w,
                 height: 23.h,
                 decoration: BoxDecoration(
-                    color: Color(0xFFDEDEDE),
+                    color: const Color(0xFFDEDEDE),
                     borderRadius: BorderRadius.circular(3.r)),
               ),
               SizedBox(
@@ -135,7 +135,7 @@ class CampaignAnalyticsView extends StatelessWidget {
                 width: 49.w,
                 height: 23.h,
                 decoration: BoxDecoration(
-                    color: Color(0xFFDEDEDE),
+                    color: const Color(0xFFDEDEDE),
                     borderRadius: BorderRadius.circular(3.r)),
               ),
               SizedBox(
@@ -145,7 +145,7 @@ class CampaignAnalyticsView extends StatelessWidget {
                 width: 49.w,
                 height: 23.h,
                 decoration: BoxDecoration(
-                    color: Color(0xFFDEDEDE),
+                    color: const Color(0xFFDEDEDE),
                     borderRadius: BorderRadius.circular(3.r)),
               ),
               SizedBox(
@@ -181,12 +181,12 @@ class CampaignAnalyticsView extends StatelessWidget {
                 ),
                 Column(
                   children: [
-                    CampaignSummaryCard(
+                    const CampaignSummaryCard(
                         title: "Total Spend", subTitle: "14,000 USD"),
                     SizedBox(
                       height: 18.h,
                     ),
-                    CampaignSummaryCard(
+                    const CampaignSummaryCard(
                         title: "Total Spend", subTitle: "14,000 USD"),
                   ],
                 )
@@ -226,7 +226,7 @@ class CampaignAnalyticsView extends StatelessWidget {
                   height: 39.h,
                   width: 429.w,
                   decoration: BoxDecoration(
-                      color: Color(0xFFF3D1FF),
+                      color: const Color(0xFFF3D1FF),
                       borderRadius: BorderRadius.circular(4.r)),
                   child: Padding(
                     padding: EdgeInsets.symmetric(horizontal: 22.w),
@@ -236,7 +236,7 @@ class CampaignAnalyticsView extends StatelessWidget {
                         style: GoogleFonts.inter(
                             fontWeight: FontWeight.w400,
                             fontSize: 12.sp,
-                            color: Color(0xFF555555)),
+                            color: const Color(0xFF555555)),
                       ),
                     ),
                   ),
@@ -248,7 +248,7 @@ class CampaignAnalyticsView extends StatelessWidget {
                   height: 39.h,
                   width: 429.w,
                   decoration: BoxDecoration(
-                      color: Color(0xFFF3D1FF),
+                      color: const Color(0xFFF3D1FF),
                       borderRadius: BorderRadius.circular(4.r)),
                   child: Padding(
                     padding: EdgeInsets.symmetric(horizontal: 22.w),
@@ -258,7 +258,7 @@ class CampaignAnalyticsView extends StatelessWidget {
                         style: GoogleFonts.inter(
                             fontWeight: FontWeight.w400,
                             fontSize: 12.sp,
-                            color: Color(0xFF555555)),
+                            color: const Color(0xFF555555)),
                       ),
                     ),
                   ),
@@ -280,7 +280,7 @@ class CampaignAnalyticsView extends StatelessWidget {
                   height: 39.h,
                   width: 429.w,
                   decoration: BoxDecoration(
-                      color: Color(0xFFF8FF97),
+                      color: const Color(0xFFF8FF97),
                       borderRadius: BorderRadius.circular(4.r)),
                   child: Padding(
                     padding: EdgeInsets.symmetric(horizontal: 22.w),
@@ -290,7 +290,7 @@ class CampaignAnalyticsView extends StatelessWidget {
                         style: GoogleFonts.inter(
                             fontWeight: FontWeight.w400,
                             fontSize: 12.sp,
-                            color: Color(0xFF555555)),
+                            color: const Color(0xFF555555)),
                       ),
                     ),
                   ),

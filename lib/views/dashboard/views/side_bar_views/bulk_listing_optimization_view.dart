@@ -60,25 +60,25 @@ class BulkListingOptimizerView extends StatelessWidget {
                 ),
               ],
             ),
-            // Figma Flutter Generator Campaign_identifierWidget - GROUP
+      
             SizedBox(
               width: 36,
             ),
-            Container(
+            SizedBox(
                 width: 433,
                 height: 234,
                 child: Stack(children: <Widget>[
                   Positioned(
                       top: 85,
                       left: 0,
-                      child: Container(
+                      child: SizedBox(
                           width: 433,
                           height: 66,
                           child: Stack(children: <Widget>[
                             Positioned(
                                 top: 29,
                                 left: 0,
-                                child: Container(
+                                child: SizedBox(
                                     width: 433,
                                     height: 37,
                                     child: Stack(children: <Widget>[
@@ -172,14 +172,14 @@ class BulkListingOptimizerView extends StatelessWidget {
                   Positioned(
                       top: 0,
                       left: 0,
-                      child: Container(
+                      child: SizedBox(
                           width: 433,
                           height: 66,
                           child: Stack(children: <Widget>[
                             Positioned(
                                 top: 29,
                                 left: 0,
-                                child: Container(
+                                child: SizedBox(
                                     width: 433,
                                     height: 37,
                                     child: Stack(children: <Widget>[
@@ -248,7 +248,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                                                 Positioned(
                                                     top: 1.3416666984558105,
                                                     left: 2.5,
-                                                    child: Container(
+                                                    child: SizedBox(
                                                         width: 15,
                                                         height:
                                                             17.320507049560547,
@@ -257,7 +257,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                                                               Positioned(
                                                                   top: 0,
                                                                   left: 0,
-                                                                  child: Container(
+                                                                  child: SizedBox(
                                                                       width: 15,
                                                                       height: 17.320507049560547,
                                                                       child: Stack(children: <Widget>[
@@ -293,7 +293,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                   Positioned(
                       top: 170,
                       left: 0,
-                      child: Container(
+                      child: SizedBox(
                           width: 433,
                           height: 64,
                           child: Stack(children: <Widget>[
@@ -315,7 +315,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                             Positioned(
                                 top: 27,
                                 left: 0,
-                                child: Container(
+                                child: SizedBox(
                                     width: 433,
                                     height: 37,
                                     child: Stack(children: <Widget>[
@@ -367,7 +367,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                                                 Positioned(
                                                     top: 0,
                                                     left: 0,
-                                                    child: Container(
+                                                    child: SizedBox(
                                                         width: 20,
                                                         height: 17.5,
                                                         child: Stack(
@@ -377,7 +377,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                                                                       2.500000476837158,
                                                                   left:
                                                                       3.814697322468419e-7,
-                                                                  child: Container(
+                                                                  child: SizedBox(
                                                                       width: 20,
                                                                       height: 15,
                                                                       child: Stack(children: <Widget>[
@@ -386,7 +386,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                                                                                 0,
                                                                             left:
                                                                                 0,
-                                                                            child: Container(
+                                                                            child: SizedBox(
                                                                                 width: 20,
                                                                                 height: 15,
                                                                                 child: Stack(children: <Widget>[
@@ -402,7 +402,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                                                                       3.814697322468419e-7,
                                                                   left: 7.5,
                                                                   child:
-                                                                      Container(
+                                                                      SizedBox(
                                                                           width:
                                                                               5,
                                                                           height:
@@ -412,7 +412,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                                                                             Positioned(
                                                                                 top: 0,
                                                                                 left: 0,
-                                                                                child: Container(
+                                                                                child: SizedBox(
                                                                                     width: 5,
                                                                                     height: 5.8333330154418945,
                                                                                     child: Stack(children: <Widget>[
@@ -428,7 +428,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                                                                       6.6666669845581055,
                                                                   left:
                                                                       3.3333334922790527,
-                                                                  child: Container(
+                                                                  child: SizedBox(
                                                                       width: 4.166666507720947,
                                                                       height: 6.666666507720947,
                                                                       child: Stack(children: <Widget>[
@@ -437,7 +437,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                                                                                 0,
                                                                             left:
                                                                                 0,
-                                                                            child: Container(
+                                                                            child: SizedBox(
                                                                                 width: 4.166666507720947,
                                                                                 height: 6.666666507720947,
                                                                                 child: Stack(children: <Widget>[
@@ -453,7 +453,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                                                                       6.6666669845581055,
                                                                   left:
                                                                       9.166666030883789,
-                                                                  child: Container(
+                                                                  child: SizedBox(
                                                                       width: 6.666666507720947,
                                                                       height: 1.6666666269302368,
                                                                       child: Stack(children: <Widget>[
@@ -462,7 +462,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                                                                                 0,
                                                                             left:
                                                                                 0,
-                                                                            child: Container(
+                                                                            child: SizedBox(
                                                                                 width: 6.666666507720947,
                                                                                 height: 1.6666666269302368,
                                                                                 child: Stack(children: <Widget>[
@@ -478,7 +478,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                                                                       9.166666030883789,
                                                                   left:
                                                                       9.166666030883789,
-                                                                  child: Container(
+                                                                  child: SizedBox(
                                                                       width: 4.166666507720947,
                                                                       height: 1.6666666269302368,
                                                                       child: Stack(children: <Widget>[
@@ -487,7 +487,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                                                                                 0,
                                                                             left:
                                                                                 0,
-                                                                            child: Container(
+                                                                            child: SizedBox(
                                                                                 width: 4.166666507720947,
                                                                                 height: 1.6666666269302368,
                                                                                 child: Stack(children: <Widget>[
@@ -503,7 +503,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                                                                       11.666666030883789,
                                                                   left:
                                                                       9.166666030883789,
-                                                                  child: Container(
+                                                                  child: SizedBox(
                                                                       width: 5.8333330154418945,
                                                                       height: 1.6666666269302368,
                                                                       child: Stack(children: <Widget>[
@@ -512,7 +512,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                                                                                 0,
                                                                             left:
                                                                                 0,
-                                                                            child: Container(
+                                                                            child: SizedBox(
                                                                                 width: 5.8333330154418945,
                                                                                 height: 1.6666666269302368,
                                                                                 child: Stack(children: <Widget>[
@@ -548,7 +548,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                     SizedBox(
                       width: 140.w,
                     ),
-                    Container(
+                    SizedBox(
                         width: 142,
                         height: 27,
                         child: Stack(children: <Widget>[
@@ -605,7 +605,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                 SizedBox(
                   height: 10,
                 ),
-                // Figma Flutter Generator Keyword_itemWidget - GROUP
+          
                 KeywordSelectionBox(),
                 SizedBox(
                   height: 10,
@@ -620,22 +620,22 @@ class BulkListingOptimizerView extends StatelessWidget {
             SizedBox(
               width: 39.w,
             ),
-            // Figma Flutter Generator Ai_keywords_managementWidget - GROUP
-            Container(
+
+            SizedBox(
                 width: 435,
                 height: 178,
                 child: Stack(children: <Widget>[
                   Positioned(
                       top: 150,
                       left: 0,
-                      child: Container(
+                      child: SizedBox(
                           width: 435,
                           height: 28,
                           child: Stack(children: <Widget>[
                             Positioned(
                                 top: 0,
                                 left: 0,
-                                child: Container(
+                                child: SizedBox(
                                     width: 181,
                                     height: 27,
                                     child: Stack(children: <Widget>[
@@ -677,7 +677,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                             Positioned(
                                 top: 1,
                                 left: 265,
-                                child: Container(
+                                child: SizedBox(
                                     width: 170,
                                     height: 27,
                                     child: Stack(children: <Widget>[
@@ -720,7 +720,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                   Positioned(
                       top: 102,
                       left: 0,
-                      child: Container(
+                      child: SizedBox(
                           width: 420,
                           height: 38,
                           child: Stack(children: <Widget>[
@@ -746,7 +746,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                             Positioned(
                                 top: 9,
                                 left: 388,
-                                child: Container(
+                                child: SizedBox(
                                     width: 17.6884765625,
                                     height: 18.122573852539062,
                                     child: Stack(children: <Widget>[
@@ -793,7 +793,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                             Positioned(
                                 top: 8,
                                 left: 240,
-                                child: Container(
+                                child: SizedBox(
                                     width: 131,
                                     height: 22,
                                     child: Stack(children: <Widget>[
@@ -834,7 +834,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                                       Positioned(
                                           top: 2,
                                           left: 67,
-                                          child: Container(
+                                          child: SizedBox(
                                               width: 53.999900817871094,
                                               height: 18.000001907348633,
                                               child: Stack(children: <Widget>[
@@ -864,7 +864,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                   Positioned(
                       top: 55,
                       left: 0,
-                      child: Container(
+                      child: SizedBox(
                           width: 420,
                           height: 38,
                           child: Stack(children: <Widget>[
@@ -905,7 +905,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                             Positioned(
                                 top: 10,
                                 left: 388,
-                                child: Container(
+                                child: SizedBox(
                                     width: 17.6884765625,
                                     height: 18.122573852539062,
                                     child: Stack(children: <Widget>[
@@ -934,7 +934,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                             Positioned(
                                 top: 9,
                                 left: 240,
-                                child: Container(
+                                child: SizedBox(
                                     width: 131,
                                     height: 22,
                                     child: Stack(children: <Widget>[
@@ -975,7 +975,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                                       Positioned(
                                           top: 2,
                                           left: 67,
-                                          child: Container(
+                                          child: SizedBox(
                                               width: 54,
                                               height: 18,
                                               child: Stack(children: <Widget>[
@@ -1005,7 +1005,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                   Positioned(
                       top: 49,
                       left: 428,
-                      child: Container(
+                      child: SizedBox(
                           width: 7,
                           height: 96,
                           child: Stack(children: <Widget>[
@@ -1058,7 +1058,7 @@ class BulkListingOptimizerView extends StatelessWidget {
                   Positioned(
                       top: 0,
                       left: 0,
-                      child: Container(
+                      child: SizedBox(
                           width: 233.5426025390625,
                           height: 20,
                           child: Stack(children: <Widget>[
@@ -1111,7 +1111,7 @@ class KeywordSelectionBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
         width: 420,
         height: 38,
         child: Stack(children: <Widget>[
@@ -1177,7 +1177,7 @@ class KeywordSelectionBox extends StatelessWidget {
           Positioned(
               top: 8,
               left: 240,
-              child: Container(
+              child: SizedBox(
                   width: 92,
                   height: 22,
                   child: Stack(children: <Widget>[

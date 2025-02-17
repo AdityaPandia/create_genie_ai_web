@@ -22,10 +22,10 @@ class Sidebar extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(color: CustomColors.whiteColor, boxShadow: [
         BoxShadow(
-          offset: Offset(0, 4),
+          offset: const Offset(0, 4),
           blurRadius: 18.1.r,
           spreadRadius: 9.r,
-          color: Color(0xFF000000).withOpacity(0.4),
+          color: const Color(0xFF000000).withOpacity(0.4),
         ),
       ]),
       child: Padding(
@@ -42,7 +42,7 @@ class Sidebar extends StatelessWidget {
               SizedBox(
                 height: 20.h,
               ),
-              ProfileCard(),
+              const ProfileCard(),
               SizedBox(
                 height: 16.h,
               ),
@@ -119,9 +119,8 @@ class Sidebar extends StatelessWidget {
                   ),
                 ),
               ],
-              // Figma Flutter Generator Rectangle28Widget - RECTANGLE
-              // Figma Flutter Generator Account_setupWidget - GROUP
-              CompleteSetupButton()
+            
+              const CompleteSetupButton()
             ],
           ),
         ),
@@ -147,7 +146,7 @@ class CompleteSetupButton extends StatelessWidget {
               child: Container(
                   width: 246,
                   height: 81,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(7),
                       topRight: Radius.circular(7),
@@ -169,7 +168,7 @@ class CompleteSetupButton extends StatelessWidget {
                         child: Container(
                             width: 20,
                             height: 20,
-                            decoration: BoxDecoration(
+                            decoration: const BoxDecoration(
                                 // color: Color.fromRGBO(255, 255, 255, 1),
                                 ),
                             child: Stack(children: <Widget>[
@@ -194,7 +193,7 @@ class CompleteSetupButton extends StatelessWidget {
                                                           width: 20,
                                                           height:
                                                               13.157893180847168,
-                                                          child: Stack(
+                                                          child: const Stack(
                                                               children: <Widget>[
                                                                 Positioned(
                                                                     top: 0,
@@ -208,7 +207,7 @@ class CompleteSetupButton extends StatelessWidget {
                                                 ]))),
                                       ]))),
                             ]))),
-                    Positioned(
+                    const Positioned(
                         top: 40,
                         left: 0,
                         child: Text(
@@ -223,7 +222,7 @@ class CompleteSetupButton extends StatelessWidget {
                               fontWeight: FontWeight.normal,
                               height: 1),
                         )),
-                    Positioned(
+                    const Positioned(
                         top: 0,
                         left: 0,
                         child: Text(
@@ -252,7 +251,7 @@ class CompleteSetupButton extends StatelessWidget {
                         child: Container(
                             width: 42,
                             height: 42,
-                            decoration: BoxDecoration(
+                            decoration: const BoxDecoration(
                               color: Color.fromRGBO(113, 125, 150, 1),
                               borderRadius:
                                   BorderRadius.all(Radius.elliptical(42, 42)),
@@ -282,12 +281,12 @@ class CompleteSetupButton extends StatelessWidget {
                         child: Container(
                             width: 34,
                             height: 34,
-                            decoration: BoxDecoration(
+                            decoration: const BoxDecoration(
                               color: Color.fromRGBO(217, 217, 217, 1),
                               borderRadius:
                                   BorderRadius.all(Radius.elliptical(34, 34)),
                             ))),
-                    Positioned(
+                    const Positioned(
                         top: 15,
                         left: 10,
                         child: Text(

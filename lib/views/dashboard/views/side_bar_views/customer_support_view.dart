@@ -16,14 +16,14 @@ class CustomerSupportView extends StatelessWidget {
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Figma Flutter Generator Rectangle75Widget - RECTANGLE
+       
             Text(
               "Customer Support",
               style:
                   GoogleFonts.inter(fontSize: 19, fontWeight: FontWeight.w600),
             ),
 
-            SizedBox(
+            const SizedBox(
               height: 18,
             ),
             Text(
@@ -33,29 +33,29 @@ class CustomerSupportView extends StatelessWidget {
                   fontWeight: FontWeight.w400,
                   color: const Color(0xFF292727)),
             ),
-            SizedBox(
+            const SizedBox(
               height: 14,
             ),
             Container(
               width: 428,
               height: 53,
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.only(
+                borderRadius: const BorderRadius.only(
                   topLeft: Radius.circular(5),
                   topRight: Radius.circular(5),
                   bottomLeft: Radius.circular(5),
                   bottomRight: Radius.circular(5),
                 ),
-                color: Color.fromRGBO(255, 255, 255, 1),
+                color: const Color.fromRGBO(255, 255, 255, 1),
                 border: Border.all(
-                  color: Color.fromRGBO(174, 174, 174, 1),
+                  color: const Color.fromRGBO(174, 174, 174, 1),
                   width: 1,
                 ),
               ),
               child: Align(
                 alignment: Alignment.centerLeft,
                 child: Padding(
-                  padding: EdgeInsets.only(left: 19),
+                  padding: const EdgeInsets.only(left: 19),
                   child: Text(
                     'API Integration',
                     style: GoogleFonts.inter(
@@ -66,28 +66,28 @@ class CustomerSupportView extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
-            // Figma Flutter Generator Rectangle75Widget - RECTANGLE
+   
             Container(
               width: 428,
               height: 177,
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.only(
+                borderRadius: const BorderRadius.only(
                   topLeft: Radius.circular(5),
                   topRight: Radius.circular(5),
                   bottomLeft: Radius.circular(5),
                   bottomRight: Radius.circular(5),
                 ),
-                color: Color.fromRGBO(255, 255, 255, 1),
+                color: const Color.fromRGBO(255, 255, 255, 1),
                 border: Border.all(
-                  color: Color.fromRGBO(174, 174, 174, 1),
+                  color: const Color.fromRGBO(174, 174, 174, 1),
                   width: 1,
                 ),
               ),
               child: Padding(
-                padding: EdgeInsets.only(left: 19, top: 17, right: 19),
+                padding: const EdgeInsets.only(left: 19, top: 17, right: 19),
                 child: Text(
                   "Explain more details about the issue you are facing..",
                   style: GoogleFonts.inter(
@@ -95,7 +95,7 @@ class CustomerSupportView extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Text(
@@ -107,21 +107,21 @@ class CustomerSupportView extends StatelessWidget {
               height: 14.h,
             ),
 
-            UploadContainer(),
-            SizedBox(
+            const UploadContainer(),
+            const SizedBox(
               height: 10,
             ),
             Text("Accepted Formats",
                 style: GoogleFonts.inter(
                     fontWeight: FontWeight.w400,
                     fontSize: 10.sp,
-                    color: Color(0xFF939393))),
+                    color: const Color(0xFF939393))),
             SizedBox(height: 5.h),
             Text("Maximum Size: 100MB",
                 style: GoogleFonts.inter(
                     fontWeight: FontWeight.w400,
                     fontSize: 10.sp,
-                    color: Color(0xFF939393))),
+                    color: const Color(0xFF939393))),
             SizedBox(height: 11.h),
             Image.asset(
               "assets/images/png/report_image.png",
@@ -130,7 +130,7 @@ class CustomerSupportView extends StatelessWidget {
             ),
           ],
         ),
-        SizedBox(width: 31),
+        const SizedBox(width: 31),
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -143,7 +143,7 @@ class CustomerSupportView extends StatelessWidget {
                     fontSize: 19,
                   ),
                 ),
-                SizedBox(width: 120),
+                const SizedBox(width: 120),
                 Container(
                     width: 78,
                     height: 25,
@@ -154,7 +154,7 @@ class CustomerSupportView extends StatelessWidget {
                           child: Container(
                               width: 78,
                               height: 25,
-                              decoration: BoxDecoration(
+                              decoration: const BoxDecoration(
                                 borderRadius: BorderRadius.only(
                                   topLeft: Radius.circular(3),
                                   topRight: Radius.circular(3),
@@ -163,7 +163,7 @@ class CustomerSupportView extends StatelessWidget {
                                 ),
                                 color: Color.fromRGBO(235, 235, 235, 1),
                               ))),
-                      Positioned(
+                      const Positioned(
                           top: 5,
                           left: 9,
                           child: Text(
@@ -184,7 +184,7 @@ class CustomerSupportView extends StatelessWidget {
                           child: Container(
                               width: 8,
                               height: 3,
-                              decoration: BoxDecoration(),
+                              decoration: const BoxDecoration(),
                               child: Stack(children: <Widget>[
                                 Positioned(
                                   top: 0,
@@ -197,15 +197,15 @@ class CustomerSupportView extends StatelessWidget {
                     ])),
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 15,
             ),
-            TicketHistoryCard(),
-            SizedBox(
+            const TicketHistoryCard(),
+            const SizedBox(
               height: 15,
             ),
-            TicketHistoryCard(),
-            SizedBox(
+            const TicketHistoryCard(),
+            const SizedBox(
               height: 61,
             ),
             Text(
@@ -213,15 +213,15 @@ class CustomerSupportView extends StatelessWidget {
               style:
                   GoogleFonts.inter(fontSize: 19, fontWeight: FontWeight.w600),
             ),
-            SizedBox(
+            const SizedBox(
               height: 15,
             ),
-            // Figma Flutter Generator Issue_ticketWidget - GROUP
-            RelevantArticleCard(),
-            SizedBox(
+     
+            const RelevantArticleCard(),
+            const SizedBox(
               height: 15,
             ),
-            RelevantArticleCard()
+            const RelevantArticleCard()
           ],
         ),
       ],
@@ -246,7 +246,7 @@ class RelevantArticleCard extends StatelessWidget {
               child: Container(
                   width: 432,
                   height: 125,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(15),
                       topRight: Radius.circular(15),
@@ -261,7 +261,7 @@ class RelevantArticleCard extends StatelessWidget {
                     ],
                     color: Color.fromRGBO(255, 255, 255, 1),
                   ))),
-          Positioned(
+          const Positioned(
               top: 93,
               left: 19,
               child: Text(
@@ -289,7 +289,7 @@ class RelevantArticleCard extends StatelessWidget {
                         child: Container(
                             width: 106,
                             height: 22,
-                            decoration: BoxDecoration(
+                            decoration: const BoxDecoration(
                               borderRadius: BorderRadius.only(
                                 topLeft: Radius.circular(24),
                                 topRight: Radius.circular(24),
@@ -304,7 +304,7 @@ class RelevantArticleCard extends StatelessWidget {
                         child: Container(
                             width: 81,
                             height: 22,
-                            decoration: BoxDecoration(
+                            decoration: const BoxDecoration(
                               borderRadius: BorderRadius.only(
                                 topLeft: Radius.circular(24),
                                 topRight: Radius.circular(24),
@@ -313,7 +313,7 @@ class RelevantArticleCard extends StatelessWidget {
                               ),
                               color: Color.fromRGBO(235, 235, 235, 1),
                             ))),
-                    Positioned(
+                    const Positioned(
                         top: 4,
                         left: 13,
                         child: Text(
@@ -328,7 +328,7 @@ class RelevantArticleCard extends StatelessWidget {
                               fontWeight: FontWeight.normal,
                               height: 1),
                         )),
-                    Positioned(
+                    const Positioned(
                         top: 4,
                         left: 127,
                         child: Text(
@@ -344,7 +344,7 @@ class RelevantArticleCard extends StatelessWidget {
                               height: 1),
                         )),
                   ]))),
-          Positioned(
+          const Positioned(
               top: 15,
               left: 18,
               child: Text(
@@ -380,7 +380,7 @@ class TicketHistoryCard extends StatelessWidget {
               child: Container(
                   width: 432,
                   height: 81,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(15),
                       topRight: Radius.circular(15),
@@ -395,7 +395,7 @@ class TicketHistoryCard extends StatelessWidget {
                     ],
                     color: Color.fromRGBO(255, 255, 255, 1),
                   ))),
-          Positioned(
+          const Positioned(
               top: 18,
               left: 42,
               child: Text(
@@ -410,7 +410,7 @@ class TicketHistoryCard extends StatelessWidget {
                     fontWeight: FontWeight.normal,
                     height: 1),
               )),
-          Positioned(
+          const Positioned(
               top: 45,
               left: 19,
               child: Text(
@@ -439,18 +439,18 @@ class TicketHistoryCard extends StatelessWidget {
                             width: 72,
                             height: 22,
                             decoration: BoxDecoration(
-                              borderRadius: BorderRadius.only(
+                              borderRadius: const BorderRadius.only(
                                 topLeft: Radius.circular(19),
                                 topRight: Radius.circular(19),
                                 bottomLeft: Radius.circular(19),
                                 bottomRight: Radius.circular(19),
                               ),
                               border: Border.all(
-                                color: Color.fromRGBO(4, 219, 0, 1),
+                                color: const Color.fromRGBO(4, 219, 0, 1),
                                 width: 1,
                               ),
                             ))),
-                    Positioned(
+                    const Positioned(
                         top: 5,
                         left: 17,
                         child: Text(
@@ -472,10 +472,10 @@ class TicketHistoryCard extends StatelessWidget {
               child: Container(
                   width: 16,
                   height: 16,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     color: Color.fromRGBO(255, 255, 255, 1),
                   ),
-                  child: Stack(children: <Widget>[
+                  child: const Stack(children: <Widget>[
                     Positioned(
                       top: 0,
                       left: 0,

@@ -15,10 +15,10 @@ TableRow tableChild() {
             color: Colors.white,
             boxShadow: [
               BoxShadow(
-                  offset: Offset(0, 4),
+                  offset: const Offset(0, 4),
                   blurRadius: 4.r,
                   spreadRadius: 0.r,
-                  color: Color(0xFF000000).withOpacity(0.1))
+                  color: const Color(0xFF000000).withOpacity(0.1))
             ]),
         child: Row(
           children: [
@@ -74,10 +74,10 @@ TableRow tableChild() {
             color: Colors.white,
             boxShadow: [
               BoxShadow(
-                  offset: Offset(0, 4),
+                  offset: const Offset(0, 4),
                   blurRadius: 4.r,
                   spreadRadius: 0.r,
-                  color: Color(0xFF000000).withOpacity(0.1))
+                  color: const Color(0xFF000000).withOpacity(0.1))
             ]),
         child: Center(
           child: Text(
@@ -97,10 +97,10 @@ TableRow tableChild() {
             color: Colors.white,
             boxShadow: [
               BoxShadow(
-                  offset: Offset(0, 4),
+                  offset: const Offset(0, 4),
                   blurRadius: 4.r,
                   spreadRadius: 0.r,
-                  color: Color(0xFF000000).withOpacity(0.1))
+                  color: const Color(0xFF000000).withOpacity(0.1))
             ]),
         child: Center(
           child: Text(
@@ -120,10 +120,10 @@ TableRow tableChild() {
             color: Colors.white,
             boxShadow: [
               BoxShadow(
-                  offset: Offset(0, 4),
+                  offset: const Offset(0, 4),
                   blurRadius: 4.r,
                   spreadRadius: 0.r,
-                  color: Color(0xFF000000).withOpacity(0.1))
+                  color: const Color(0xFF000000).withOpacity(0.1))
             ]),
         child: Center(
           child: Text(
@@ -143,10 +143,10 @@ TableRow tableChild() {
             color: Colors.white,
             boxShadow: [
               BoxShadow(
-                  offset: Offset(0, 4),
+                  offset: const Offset(0, 4),
                   blurRadius: 4.r,
                   spreadRadius: 0.r,
-                  color: Color(0xFF000000).withOpacity(0.1))
+                  color: const Color(0xFF000000).withOpacity(0.1))
             ]),
         child: Center(
           child: Text(
@@ -166,10 +166,10 @@ TableRow tableChild() {
             color: Colors.white,
             boxShadow: [
               BoxShadow(
-                  offset: Offset(0, 4),
+                  offset: const Offset(0, 4),
                   blurRadius: 4.r,
                   spreadRadius: 0.r,
-                  color: Color(0xFF000000).withOpacity(0.1))
+                  color: const Color(0xFF000000).withOpacity(0.1))
             ]),
         child: Center(
           child: Text(
@@ -189,10 +189,10 @@ TableRow tableChild() {
             color: Colors.white,
             boxShadow: [
               BoxShadow(
-                  offset: Offset(0, 4),
+                  offset: const Offset(0, 4),
                   blurRadius: 4.r,
                   spreadRadius: 0.r,
-                  color: Color(0xFF000000).withOpacity(0.1))
+                  color: const Color(0xFF000000).withOpacity(0.1))
             ]),
         child: Center(
           child: Text(
@@ -212,10 +212,10 @@ TableRow tableChild() {
             color: Colors.white,
             boxShadow: [
               BoxShadow(
-                  offset: Offset(0, 4),
+                  offset: const Offset(0, 4),
                   blurRadius: 4.r,
                   spreadRadius: 0.r,
-                  color: Color(0xFF000000).withOpacity(0.1))
+                  color: const Color(0xFF000000).withOpacity(0.1))
             ]),
         child: Center(
           child: Text(
@@ -235,10 +235,10 @@ TableRow tableChild() {
             color: Colors.white,
             boxShadow: [
               BoxShadow(
-                  offset: Offset(0, 4),
+                  offset: const Offset(0, 4),
                   blurRadius: 4.r,
                   spreadRadius: 0.r,
-                  color: Color(0xFF000000).withOpacity(0.1))
+                  color: const Color(0xFF000000).withOpacity(0.1))
             ]),
         child: Center(
           child: Text(
@@ -258,10 +258,10 @@ TableRow tableChild() {
             color: Colors.white,
             boxShadow: [
               BoxShadow(
-                  offset: Offset(0, 4),
+                  offset: const Offset(0, 4),
                   blurRadius: 4.r,
                   spreadRadius: 0.r,
-                  color: Color(0xFF000000).withOpacity(0.1))
+                  color: const Color(0xFF000000).withOpacity(0.1))
             ]),
         child: Center(
           child: Text(
@@ -403,17 +403,17 @@ class CampaignManagerView extends StatelessWidget {
         ),
         Row(
           children: [
-            PrimaryButton(title: "Choose Module   ^"),
+            const PrimaryButton(title: "Choose Module   ^"),
             SizedBox(
               width: 12.w,
             ),
-            PrimarySearchBar(
+            const PrimarySearchBar(
               title: "Search",
             ),
             SizedBox(
               width: 12.w,
             ),
-            PrimarySearchBar(
+            const PrimarySearchBar(
               title: "Product Type",
             ),
             SizedBox(
@@ -508,7 +508,7 @@ class CampaignManagerView extends StatelessWidget {
             child: Table(
               defaultVerticalAlignment: TableCellVerticalAlignment.middle,
               columnWidths: {
-                0: FlexColumnWidth(2),
+                0: const FlexColumnWidth(2),
                 // 0: FlexColumnWidth(2), // Adjust column width
                 // 1: FlexColumnWidth(1.5),
                 // 2: FlexColumnWidth(1),

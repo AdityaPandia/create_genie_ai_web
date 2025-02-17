@@ -45,14 +45,14 @@ class CampaignOptimizerView extends StatelessWidget {
                     style: GoogleFonts.inter(
                         fontWeight: FontWeight.w400,
                         fontSize: 15.sp,
-                        color: Color(0xFF292727))),
+                        color: const Color(0xFF292727))),
                 SizedBox(height: 11.h),
                 Container(
                   height: 37.h,
                   width: 260.w,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(7.r),
-                      color: Color(0xFFECECEC)),
+                      color: const Color(0xFFECECEC)),
                   child: Center(
                     child: Padding(
                       padding: EdgeInsets.symmetric(horizontal: 10.w),
@@ -60,7 +60,7 @@ class CampaignOptimizerView extends StatelessWidget {
                         "Custom text field",
                         style: GoogleFonts.inter(
                             fontWeight: FontWeight.w400,
-                            color: Color(0xFF717D96),
+                            color: const Color(0xFF717D96),
                             fontSize: 15.sp),
                       ),
                     ),
@@ -78,14 +78,14 @@ class CampaignOptimizerView extends StatelessWidget {
                     style: GoogleFonts.inter(
                         fontWeight: FontWeight.w400,
                         fontSize: 15.sp,
-                        color: Color(0xFF292727))),
+                        color: const Color(0xFF292727))),
                 SizedBox(height: 11.h),
                 Container(
                   height: 37.h,
                   width: 260.w,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(7.r),
-                      color: Color(0xFFECECEC)),
+                      color: const Color(0xFFECECEC)),
                   child: Center(
                     child: Padding(
                       padding: EdgeInsets.symmetric(horizontal: 10.w),
@@ -93,7 +93,7 @@ class CampaignOptimizerView extends StatelessWidget {
                         "Custom text field",
                         style: GoogleFonts.inter(
                             fontWeight: FontWeight.w400,
-                            color: Color(0xFF717D96),
+                            color: const Color(0xFF717D96),
                             fontSize: 15.sp),
                       ),
                     ),
@@ -111,14 +111,14 @@ class CampaignOptimizerView extends StatelessWidget {
                     style: GoogleFonts.inter(
                         fontWeight: FontWeight.w400,
                         fontSize: 15.sp,
-                        color: Color(0xFF292727))),
+                        color: const Color(0xFF292727))),
                 SizedBox(height: 11.h),
                 Container(
                   height: 37.h,
                   width: 260.w,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(7.r),
-                      color: Color(0xFFECECEC)),
+                      color: const Color(0xFFECECEC)),
                   child: Center(
                     child: Padding(
                       padding: EdgeInsets.symmetric(horizontal: 10.w),
@@ -126,7 +126,7 @@ class CampaignOptimizerView extends StatelessWidget {
                         "Custom text field",
                         style: GoogleFonts.inter(
                             fontWeight: FontWeight.w400,
-                            color: Color(0xFF717D96),
+                            color: const Color(0xFF717D96),
                             fontSize: 15.sp),
                       ),
                     ),
@@ -143,35 +143,35 @@ class CampaignOptimizerView extends StatelessWidget {
             style: GoogleFonts.inter(
                 fontWeight: FontWeight.w400,
                 fontSize: 15.sp,
-                color: Color(0xFF292727))),
+                color: const Color(0xFF292727))),
         SizedBox(
           height: 18.h,
         ),
         Row(
           children: [
-            // Figma Flutter Generator SpendWidget - GROUP
-            CampaignSummaryCard(
+ 
+            const CampaignSummaryCard(
               title: 'Total Spend',
               subTitle: '14,000\$',
             ),
             SizedBox(
               width: 12.w,
             ),
-            CampaignSummaryCard(
+            const CampaignSummaryCard(
               title: 'CTR',
               subTitle: 'Value Here',
             ),
             SizedBox(
               width: 12.w,
             ),
-            CampaignSummaryCard(
+            const CampaignSummaryCard(
               title: 'ROI',
               subTitle: 'Value Here',
             ),
             SizedBox(
               width: 12.w,
             ),
-            CampaignSummaryCard(
+            const CampaignSummaryCard(
               title: 'ACoS',
               subTitle: 'Value Here',
             ),
@@ -186,14 +186,14 @@ class CampaignOptimizerView extends StatelessWidget {
               style: GoogleFonts.inter(
                   fontWeight: FontWeight.w400,
                   fontSize: 15.sp,
-                  color: Color(0xFF292727))),
+                  color: const Color(0xFF292727))),
         ),
         SizedBox(
           height: 17.h,
         ),
         Row(
           children: [
-            CampaignCard(
+            const CampaignCard(
               title: "Boost Sales",
               description:
                   '"Ring the Cash Register" – Think of the joy of hearing the cash register ring when sales roll in!',
@@ -201,14 +201,14 @@ class CampaignOptimizerView extends StatelessWidget {
             SizedBox(
               width: 19.w,
             ),
-            CampaignCard(
+            const CampaignCard(
                 title: "Attract Customers",
                 description:
                     '"Open the Door" – Picture warmly welcoming new customers through your shop’s open door.'),
             SizedBox(
               width: 19.w,
             ),
-            CampaignCard(
+            const CampaignCard(
                 title: "Enhance Loyalty",
                 description:
                     '"Keep Them Coming Back" – Like your favorite café, build a connection that keeps people coming back for more!'),
@@ -232,25 +232,24 @@ class CampaignOptimizerView extends StatelessWidget {
                 SizedBox(
                   height: 19.h,
                 ),
-                // Figma Flutter Generator InputWidget - GROUP
-                // Figma Flutter Generator InputWidget - GROUP
+            
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Row(
                       children: [
-                        SmallBudgetChip(),
+                        const SmallBudgetChip(),
                         SizedBox(
                           width: 11.w,
                         ),
-                        SmallBudgetChip(),
+                        const SmallBudgetChip(),
                       ],
                     ),
                     SizedBox(
                       height: 11.h,
                     ),
-                    // Figma Flutter Generator InputWidget - GROUP
-                    BigBudgetChip()
+               
+                    const BigBudgetChip()
                   ],
                 ),
               ],
@@ -266,25 +265,24 @@ class CampaignOptimizerView extends StatelessWidget {
                 SizedBox(
                   height: 19.h,
                 ),
-                // Figma Flutter Generator InputWidget - GROUP
-                // Figma Flutter Generator InputWidget - GROUP
+             
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Row(
                       children: [
-                        SmallBudgetChip(),
+                        const SmallBudgetChip(),
                         SizedBox(
                           width: 11.w,
                         ),
-                        SmallBudgetChip(),
+                        const SmallBudgetChip(),
                       ],
                     ),
                     SizedBox(
                       height: 11.h,
                     ),
-                    // Figma Flutter Generator InputWidget - GROUP
-                    BigBudgetChip()
+                   
+                    const BigBudgetChip()
                   ],
                 ),
               ],
@@ -317,15 +315,15 @@ class BigBudgetChip extends StatelessWidget {
                   width: 405.w,
                   height: 38,
                   decoration: BoxDecoration(
-                    borderRadius: BorderRadius.only(
+                    borderRadius: const BorderRadius.only(
                       topLeft: Radius.circular(5),
                       topRight: Radius.circular(5),
                       bottomLeft: Radius.circular(5),
                       bottomRight: Radius.circular(5),
                     ),
-                    color: Color.fromRGBO(255, 255, 255, 1),
+                    color: const Color.fromRGBO(255, 255, 255, 1),
                     border: Border.all(
-                      color: Color.fromRGBO(154, 25, 207, 1),
+                      color: const Color.fromRGBO(154, 25, 207, 1),
                       width: 1,
                     ),
                   ))),
@@ -345,15 +343,15 @@ class BigBudgetChip extends StatelessWidget {
                               width: 39,
                               height: 38,
                               decoration: BoxDecoration(
-                                borderRadius: BorderRadius.only(
+                                borderRadius: const BorderRadius.only(
                                   topLeft: Radius.circular(5),
                                   topRight: Radius.circular(0),
                                   bottomLeft: Radius.circular(5),
                                   bottomRight: Radius.circular(0),
                                 ),
-                                color: Color.fromRGBO(238, 238, 238, 1),
+                                color: const Color.fromRGBO(238, 238, 238, 1),
                                 border: Border.all(
-                                  color: Color.fromRGBO(113, 125, 150, 1),
+                                  color: const Color.fromRGBO(113, 125, 150, 1),
                                   width: 1,
                                 ),
                               )),
@@ -364,7 +362,7 @@ class BigBudgetChip extends StatelessWidget {
                         child: Container(
                             width: 18,
                             height: 18,
-                            decoration: BoxDecoration(
+                            decoration: const BoxDecoration(
                               color: Color.fromRGBO(255, 255, 255, 1),
                             ),
                             child: Stack(children: <Widget>[
@@ -384,19 +382,19 @@ class BigBudgetChip extends StatelessWidget {
                   width: 72,
                   height: 38,
                   decoration: BoxDecoration(
-                    borderRadius: BorderRadius.only(
+                    borderRadius: const BorderRadius.only(
                       topLeft: Radius.circular(5),
                       topRight: Radius.circular(0),
                       bottomLeft: Radius.circular(5),
                       bottomRight: Radius.circular(0),
                     ),
-                    color: Color.fromRGBO(238, 238, 238, 1),
+                    color: const Color.fromRGBO(238, 238, 238, 1),
                     border: Border.all(
-                      color: Color.fromRGBO(154, 25, 207, 1),
+                      color: const Color.fromRGBO(154, 25, 207, 1),
                       width: 1,
                     ),
                   ))),
-          Positioned(
+          const Positioned(
               top: 12,
               left: 19,
               child: Text(
@@ -411,7 +409,7 @@ class BigBudgetChip extends StatelessWidget {
                     fontWeight: FontWeight.normal,
                     height: 1),
               )),
-          Positioned(
+          const Positioned(
               top: 12,
               left: 91,
               child: Text(
@@ -448,15 +446,15 @@ class SmallBudgetChip extends StatelessWidget {
                   width: 235,
                   height: 38,
                   decoration: BoxDecoration(
-                    borderRadius: BorderRadius.only(
+                    borderRadius: const BorderRadius.only(
                       topLeft: Radius.circular(5),
                       topRight: Radius.circular(5),
                       bottomLeft: Radius.circular(5),
                       bottomRight: Radius.circular(5),
                     ),
-                    color: Color.fromRGBO(255, 255, 255, 1),
+                    color: const Color.fromRGBO(255, 255, 255, 1),
                     border: Border.all(
-                      color: Color.fromRGBO(154, 25, 207, 1),
+                      color: const Color.fromRGBO(154, 25, 207, 1),
                       width: 1,
                     ),
                   ))),
@@ -476,15 +474,15 @@ class SmallBudgetChip extends StatelessWidget {
                               width: 39,
                               height: 38,
                               decoration: BoxDecoration(
-                                borderRadius: BorderRadius.only(
+                                borderRadius: const BorderRadius.only(
                                   topLeft: Radius.circular(5),
                                   topRight: Radius.circular(0),
                                   bottomLeft: Radius.circular(5),
                                   bottomRight: Radius.circular(0),
                                 ),
-                                color: Color.fromRGBO(238, 238, 238, 1),
+                                color: const Color.fromRGBO(238, 238, 238, 1),
                                 border: Border.all(
-                                  color: Color.fromRGBO(113, 125, 150, 1),
+                                  color: const Color.fromRGBO(113, 125, 150, 1),
                                   width: 1,
                                 ),
                               )),
@@ -495,7 +493,7 @@ class SmallBudgetChip extends StatelessWidget {
                         child: Container(
                             width: 18,
                             height: 18,
-                            decoration: BoxDecoration(
+                            decoration: const BoxDecoration(
                               color: Color.fromRGBO(255, 255, 255, 1),
                             ),
                             child: Stack(children: <Widget>[
@@ -515,19 +513,19 @@ class SmallBudgetChip extends StatelessWidget {
                   width: 72,
                   height: 38,
                   decoration: BoxDecoration(
-                    borderRadius: BorderRadius.only(
+                    borderRadius: const BorderRadius.only(
                       topLeft: Radius.circular(5),
                       topRight: Radius.circular(0),
                       bottomLeft: Radius.circular(5),
                       bottomRight: Radius.circular(0),
                     ),
-                    color: Color.fromRGBO(238, 238, 238, 1),
+                    color: const Color.fromRGBO(238, 238, 238, 1),
                     border: Border.all(
-                      color: Color.fromRGBO(154, 25, 207, 1),
+                      color: const Color.fromRGBO(154, 25, 207, 1),
                       width: 1,
                     ),
                   ))),
-          Positioned(
+          const Positioned(
               top: 12,
               left: 19,
               child: Text(
@@ -542,7 +540,7 @@ class SmallBudgetChip extends StatelessWidget {
                     fontWeight: FontWeight.normal,
                     height: 1),
               )),
-          Positioned(
+          const Positioned(
               top: 12,
               left: 91,
               child: Text(
@@ -581,7 +579,7 @@ class CampaignSummaryCard extends StatelessWidget {
               child: Container(
                   width: 172,
                   height: 99,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(15),
                       topRight: Radius.circular(15),
@@ -602,7 +600,7 @@ class CampaignSummaryCard extends StatelessWidget {
               child: Text(
                 title,
                 textAlign: TextAlign.left,
-                style: TextStyle(
+                style: const TextStyle(
                     color: Color.fromRGBO(41, 39, 39, 1),
                     fontFamily: 'Inter',
                     fontSize: 12,
@@ -617,7 +615,7 @@ class CampaignSummaryCard extends StatelessWidget {
               child: Text(
                 subTitle,
                 textAlign: TextAlign.left,
-                style: TextStyle(
+                style: const TextStyle(
                     color: Color.fromRGBO(41, 39, 39, 1),
                     fontFamily: 'Inter',
                     fontSize: 20,
@@ -651,15 +649,15 @@ class CampaignCard extends StatelessWidget {
                   width: 254,
                   height: 165,
                   decoration: BoxDecoration(
-                    borderRadius: BorderRadius.only(
+                    borderRadius: const BorderRadius.only(
                       topLeft: Radius.circular(11),
                       topRight: Radius.circular(11),
                       bottomLeft: Radius.circular(11),
                       bottomRight: Radius.circular(11),
                     ),
-                    color: Color.fromRGBO(255, 255, 255, 1),
+                    color: const Color.fromRGBO(255, 255, 255, 1),
                     border: Border.all(
-                      color: Color.fromRGBO(154, 25, 207, 1),
+                      color: const Color.fromRGBO(154, 25, 207, 1),
                       width: 1,
                     ),
                   ))),
@@ -669,7 +667,7 @@ class CampaignCard extends StatelessWidget {
               child: Text(
                 title,
                 textAlign: TextAlign.left,
-                style: TextStyle(
+                style: const TextStyle(
                     color: Color.fromRGBO(41, 39, 39, 1),
                     fontFamily: 'Inter',
                     fontSize: 15,
@@ -709,7 +707,7 @@ class CampaignCard extends StatelessWidget {
                         child: Container(
                             width: 18.00341796875,
                             height: 18,
-                            decoration: BoxDecoration(
+                            decoration: const BoxDecoration(
                               color: Color.fromRGBO(154, 25, 207, 1),
                               borderRadius: BorderRadius.all(
                                   Radius.elliptical(18.00341796875, 18)),
@@ -734,7 +732,7 @@ class CampaignCard extends StatelessWidget {
                         child: Container(
                             width: 21.3786678314209,
                             height: 20,
-                            decoration: BoxDecoration(
+                            decoration: const BoxDecoration(
                               borderRadius: BorderRadius.only(
                                 topLeft: Radius.circular(3),
                                 topRight: Radius.circular(3),
@@ -749,7 +747,7 @@ class CampaignCard extends StatelessWidget {
                         child: Container(
                             width: 12,
                             height: 12,
-                            decoration: BoxDecoration(
+                            decoration: const BoxDecoration(
                               color: Color.fromRGBO(255, 255, 255, 1),
                             ),
                             child: Stack(children: <Widget>[

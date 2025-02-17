@@ -20,15 +20,15 @@ class DashboardView extends StatelessWidget {
   final controller = Get.put(DashboardController());
 
   List<Widget> screens = [
-    AccountDashboardView(),
-    CampaignManagerView(),
-    CampaignAnalyticsView(),
-    CampaignOptimizerView(),
-    SizedBox(), // KeywordManagerView(),
-    SizedBox(), //CompetitorsAnalyticsView(),
-    BulkListingOptimizerView(),
-    SizedBox(), //TourView(),
-    CustomerSupportView(), //CustomerSupportView(),
+    const AccountDashboardView(),
+    const CampaignManagerView(),
+    const CampaignAnalyticsView(),
+    const CampaignOptimizerView(),
+    const SizedBox(), // KeywordManagerView(),
+    const SizedBox(), //CompetitorsAnalyticsView(),
+    const BulkListingOptimizerView(),
+    const SizedBox(), //TourView(),
+    const CustomerSupportView(), //CustomerSupportView(),
   ];
   @override
   Widget build(BuildContext context) {
@@ -47,7 +47,7 @@ class DashboardView extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  TopBar(),
+                  const TopBar(),
                   SizedBox(
                     height: 7.h,
                   ),
