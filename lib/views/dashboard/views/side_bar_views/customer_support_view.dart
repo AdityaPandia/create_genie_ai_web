@@ -16,13 +16,11 @@ class CustomerSupportView extends StatelessWidget {
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-       
             Text(
               "Customer Support",
               style:
                   GoogleFonts.inter(fontSize: 19, fontWeight: FontWeight.w600),
             ),
-
             const SizedBox(
               height: 18,
             ),
@@ -69,7 +67,6 @@ class CustomerSupportView extends StatelessWidget {
             const SizedBox(
               height: 20,
             ),
-   
             Container(
               width: 428,
               height: 177,
@@ -106,7 +103,6 @@ class CustomerSupportView extends StatelessWidget {
             SizedBox(
               height: 14.h,
             ),
-
             const UploadContainer(),
             const SizedBox(
               height: 10,
@@ -216,7 +212,6 @@ class CustomerSupportView extends StatelessWidget {
             const SizedBox(
               height: 15,
             ),
-     
             const RelevantArticleCard(),
             const SizedBox(
               height: 15,
